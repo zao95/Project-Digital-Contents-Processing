@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+body .onDiv {
+  font-size: 2rem;
+  background-color: #7777775b;
+  z-index: 1;
+  width: 50%;
+  margin: 10rem auto 0 auto;
+  pointer-events: none;
+}
+body .p5Canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
