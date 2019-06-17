@@ -90,6 +90,9 @@ var setup = function() {
     
     soundFormats('mp3');
     audioPlay.play();
+    $("*").click(function() {
+        audioPlay.play();
+    });
 
     images.push("00");
     images.push("01");
